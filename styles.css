@@ -76,13 +76,13 @@ a:hover{
 /* Media query for mobile devices */
 @media (max-width: 768px) {
     h1{
-    font-size: 100px; /* Adjusted size for mobile devices */
+    font-size: 80px; /* Adjusted size for mobile devices */
     /* CSS rules for mobile devices */}
     a{
-        font-size: 80px;
+        font-size: 60px;
     }
     span.greeting{
-        font-size: 80px;
+        font-size: 60px;
     }
 }
 
