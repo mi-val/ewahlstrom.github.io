@@ -17,6 +17,8 @@ a{font-size: 100px;
     text-decoration: none;
 }
 
+
 a:hover{
     color: red;
+    text-decoration-line: underline;
 }
