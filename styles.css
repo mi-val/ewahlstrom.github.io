@@ -8,25 +8,31 @@ body{
 
 p{font-size: 120px;
     margin: 0;
+    position: relative;
+    left: 25 px
 }
 
-h1{font-size: 130px;
+h1{font-size: 150px;
     margin: 0; /* Removes margin */
     font-weight: 600 ; /* Sets font weight to normal */
-
+    position: relative;
+    left: 25px
 }
 
 span.greeting {
-    font-size: 120px;
+    font-size: 90px;
     font-weight: 400;
-
+    
 }
+
 
 
 a{font-size: 120px;
     color: black;
     text-decoration: none;
     position: relative;
+    left: 25px
+
 }
 
 a::before {
