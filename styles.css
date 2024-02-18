@@ -19,6 +19,15 @@ h1{font-size: 150px;
     left: 25px
 }
 
+h2{
+    font-size: 150px;
+    margin: 0; /* Removes margin */
+    font-weight: 600 ; /* Sets font weight to normal */
+    position: relative;
+    left: 25px; 
+    text-decoration: underline;
+}
+
 span.greeting {
     font-size: 90px;
     font-weight: 400;
