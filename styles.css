@@ -84,6 +84,11 @@ a:hover{
     span.greeting{
         font-size: 60px;
     }
+
+    h2{
+        font-size: 80px;
+
+    }
 }
 
 /* Media query for tablets and larger devices */
