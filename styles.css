@@ -102,7 +102,7 @@ a:hover{
 
     .my-image{
         width: 100%; /* Set the width to 100% to make it responsive */
-        max-width: 300px; /* Limit the maximum width for smaller screens */
+        max-width: 200px; /* Limit the maximum width for smaller screens */
     
     }
 }
