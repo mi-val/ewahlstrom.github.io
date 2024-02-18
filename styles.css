@@ -72,3 +72,26 @@ a:hover{
     font-style: italic;
     
 }
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    h1{
+    font-size: 100px; /* Adjusted size for mobile devices */
+    /* CSS rules for mobile devices */}
+    a{
+        font-size: 80px;
+    }
+    span.greeting{
+        font-size: 80px;
+    }
+}
+
+/* Media query for tablets and larger devices */
+@media (min-width: 769px) {
+    /* CSS rules for tablets and larger devices */
+}
+
+/* Media query for desktops */
+@media (min-width: 992px) {
+    /* CSS rules for desktops */
+}
