@@ -73,11 +73,20 @@ a:hover{
     
 }
 
+
+.my-image {
+    width: 700px;
+    height: auto;
+    left: 25px;
+}
+
+
 /* Media query for mobile devices */
 @media (max-width: 768px) {
     h1{
         font-size: 80px; /* Adjusted size for mobile devices */
     /* CSS rules for mobile devices */}
+
     a{
         font-size: 60px;
     }
@@ -90,9 +99,11 @@ a:hover{
         font-size: 70px;
 
     }
+
     .my-image{
-        width: 75px;
-        height: auto
+        width: 400px;
+        height: auto;
+    
     }
 }
 
@@ -106,8 +117,3 @@ a:hover{
     /* CSS rules for desktops */
 }
 
-
-.my-image {
-    width: 700px;
-    height: auto
-}
