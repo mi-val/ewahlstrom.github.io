@@ -81,14 +81,18 @@ a:hover{
     a{
         font-size: 60px;
     }
-    
+
     span.greeting{
         font-size: 60px;
     }
 
     h2{
-        font-size: 80px;
+        font-size: 70px;
 
+    }
+    .my-image{
+        width: 75px;
+        height: auto
     }
 }
 
@@ -100,4 +104,10 @@ a:hover{
 /* Media query for desktops */
 @media (min-width: 992px) {
     /* CSS rules for desktops */
+}
+
+
+.my-image {
+    width: 700px;
+    height: auto
 }
