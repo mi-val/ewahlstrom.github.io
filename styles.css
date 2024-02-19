@@ -47,8 +47,38 @@ span.return {
 }
 
 
+h3{
+    font-size: 100px;
+    margin: 0; /* Removes margin */
+    font-weight: 600 ; /* Sets font weight to normal */
+    position: relative;
+    left: 25px; 
+    display: flex; /* Use flexbox to align elements */
+    align-items: center; /* Align items vertically */
+    flex-wrap: wrap; /* Allow flex items to wrap */
+}
 
-a{font-size: 120px;
+
+.project-links {
+    font-size: 100px; /* Adjust font size for links */
+    color: black;
+    text-decoration: none;
+  }
+  
+.project-links:not(:last-child)::after {
+    content: ", "; /* Add a comma and a space after each link except for the last one */
+    margin-left: 30px;
+  }
+  
+.project-links a {
+    font-size: 100px; /* Adjusted font size for links within .project-links */
+  }
+
+
+
+  
+
+a {font-size: 120px;
     color: black;
     text-decoration: none;
     position: relative;
@@ -84,6 +114,10 @@ a:hover{
     font-style: italic;
     
 }
+
+
+
+
 
 /* skylt.my-image {
     left: auto;
