@@ -26,12 +26,23 @@ h2{
     position: relative;
     left: 25px; 
     text-decoration: underline;
+    display: flex; /* Use flexbox to align elements */
+    justify-content: space-between; /* Distribute space between elements */
+
 }
 
 span.greeting {
     font-size: 90px;
     font-weight: 400;
     
+}
+
+span.return {
+    font-size: 90px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 60px;
+
 }
 
 
@@ -134,16 +145,18 @@ rod-hus.my-image {
         font-size: 70px;
 
     }
-/* 
-    .my-image{
-        width: 100%; 
-        max-width: 200px; } */
+    span.return {
+        font-size: 40px;
+        margin-top: 60px;
+        margin-left: -200px;
+    }
+
         .grid-container {
             grid-template-columns: repeat(1fr); /* Two columns for mobile devices */
             grid-auto-rows: 100px; /* Adjusted height for mobile devices */
-            
             grid-gap: 20px; /* Adjust gap for mobile devices */
           }
+  
 
 }
 
