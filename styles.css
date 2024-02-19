@@ -74,8 +74,27 @@ h3{
     font-size: 100px; /* Adjusted font size for links within .project-links */
   }
 
+.still-red {
+    color: red;
+    position: relative; /* Add position relative */
+    text-decoration: none; /* Remove default underline */
+    left: 25px;
 
+}
 
+.still-red::after {
+    content: ''; /* Add pseudo-element for underline */
+    position: absolute; /* Position the underline */
+    width: 100%; /* Full width */
+    height: 6px; /* Thickness of underline */
+    border-radius: 4px; /* Rounded corners */
+    background-color: red; /* Color of underline */
+    bottom: 0px; /* Position the underline slightly below the text */
+    left: 0px; /* Align the underline with the text */
+    transform-origin: right; /* Origin for transform */
+    transform: scaleX(1); /* Scale the underline to full width */
+    font-style: italic;
+}
   
 
 a {font-size: 120px;
